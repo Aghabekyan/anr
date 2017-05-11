@@ -1,0 +1,56 @@
+/* Valiables */
+
+$main: #FEF9CD;
+$title: #333;
+$special-gold: #E1BD85;
+
+/* Classes for testing */
+
+.test1 {
+	background-color: red;
+	min-height: 200px;
+	display: block;
+}
+
+.test2 {
+	background-color: green;
+	min-height: 200px;
+	display: block;
+}
+
+.test3 {
+	background-color: blue;
+	min-height: 200px;
+	display: block;
+}
+.test4 {
+	background-color: orange;
+	min-height: 200px;
+	display: block;
+}
+.test5 {
+	background-color: pink;
+	min-height: 200px;
+	display: block;
+}
+.test6 {
+	background-color: yellow;
+	min-height: 200px;
+	display: block;
+}
+
+/* web fonts */
+
+@font-face {
+    font-family:'arnamu';
+    src: url('../web-fonts/arnamu.eot');
+    src: url('../web-fonts/arnamu.eot?#iefix') format('embedded-opentype'),
+         url('../web-fonts/arnamu.woff') format('woff'),
+         url('../web-fonts/arnamu.ttf') format('truetype'),
+         url('../web-fonts/arnamu.svg#ArianAMURegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family:arial, 'arnamu';
+}

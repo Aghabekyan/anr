@@ -1,0 +1,24 @@
+{
+  "name": "diamondhousehotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "gulp-concat": "^2.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.11",
+    "gulp-sass": "^2.2.0",
+    "merge-stream": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
