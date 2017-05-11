@@ -32,24 +32,27 @@ html, body  {
 
 header {
 	.header-top {
-		background-color: rgba(153,102,51,0.8);
-		border-bottom: 1px solid #dcaf83;
+		background-color: #6b356b;
+		border-bottom: 1px solid white;
 		padding: 20px 0;
 		.logo-cont {
 			position: relative;
 			.logo {
 				position: absolute;
-				background-color: #fffacd;
-				width: 73%;
+				background-color: white;
+				width: 93%;
 
 				top: -40px;
-				height: 200px;
+				height: 178px;
 				z-index: 999;
 				a {
 					display: block;
-					width: 146px;
 					margin: 38px auto; 
-					box-shadow: 0 13px 34px -11px black;
+				}
+				img {
+					height: 100px;
+					margin-left: 5px;
+					margin-top: 15px;
 				}
 			}
 		}
